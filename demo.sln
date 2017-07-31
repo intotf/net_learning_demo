@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.30501.0
+VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demo", "demo\demo.csproj", "{B314607A-BF32-4888-A093-BC89058FDE44}"
 EndProject
@@ -16,8 +16,6 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormDemo", "FormDemo\FormDemo.csproj", "{F5DD2AE2-3FDA-4DA2-AA06-5188F77DB757}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoHttpPost", "DemoHttpPost\DemoHttpPost.csproj", "{59BB3188-CF35-4F51-9E11-4A90116C6B49}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuardDog", "GuardDog\GuardDog.csproj", "{BC8E85F4-2C0F-41A0-8AA5-7CF8A6431985}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -53,10 +51,6 @@ Global
 		{59BB3188-CF35-4F51-9E11-4A90116C6B49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59BB3188-CF35-4F51-9E11-4A90116C6B49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59BB3188-CF35-4F51-9E11-4A90116C6B49}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BC8E85F4-2C0F-41A0-8AA5-7CF8A6431985}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC8E85F4-2C0F-41A0-8AA5-7CF8A6431985}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC8E85F4-2C0F-41A0-8AA5-7CF8A6431985}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC8E85F4-2C0F-41A0-8AA5-7CF8A6431985}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
