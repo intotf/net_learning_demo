@@ -23,9 +23,10 @@ namespace AttributeDemo
     /// AOP ： 面向切面编程，就是在不影响原来类型封装的前下面，额外的切入新的功能
     /// 修饰特性
     /// AllowMultiple=true  是否可以重复使用
-    /// AttributeTargets.Enum 可以对枚举使用该特性, AttributeTargets.All 所有
+    /// AttributeTargets.Enum 可以对枚举使用该特性, AttributeTargets.All 所有,如果不加AttributeTargets 默认 All
     /// </summary>
     [AttributeUsage(AttributeTargets.All, AllowMultiple = true)]
+    [Demo(info = "111")]
     public class DemoAttribute : Attribute
     {
         /// <summary>
