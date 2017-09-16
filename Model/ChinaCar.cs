@@ -11,7 +11,7 @@ namespace Model
     public class ChinaCar : BaseCarModel
     {
         /// <summary>
-        /// 车辆名称11
+        /// 车辆名称11寺
         /// </summary>
         public string CarName { get; set; }      
     }
